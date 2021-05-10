@@ -13,7 +13,7 @@
 %%  ------------------------------------------------------------------------
 \usepackage{paralist,ragged2e,datetime}
 \usepackage{hyperref,fancyhdr,enumitem,color}
-\usepackage[centering, top=1.2in]{geometry}
+\usepackage[centering, top=1.2in, right=1.2in]{geometry}
 \usepackage{fontspec}
 \usepackage{fontawesome}
 \usepackage[compact,small,sf,bf]{titlesec}
@@ -103,16 +103,14 @@
 %% hyperlinks
 \AtBeginDocument{%
   \def\keywords{\@name, Vita, CV, Resume, \@subject}
-  \hypersetup{xetex, 
-    colorlinks=true,
-    urlcolor=ImperialBlue,
+  \hypersetup{xetex,
     plainpages=false,
     pdfpagelabels,
     bookmarksnumbered,
     pdftitle={Vita},
     pagebackref,
     pdfauthor={\@name},
-    pdfkeywords={\keywords}
+    pdfkeywords={\keywords}<
   }
 }
 
