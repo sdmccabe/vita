@@ -1,16 +1,18 @@
 \documentclass[11pt, letter]{article}
 \usepackage{jk-vita}
+\usepackage{enumitem}
 
 \title{}
 \name{Stefan D. McCabe}
 \address{
-	177 Huntington Ave \\ 
-	10th floor \\
-	Boston, MA 02115
+	2122 Massachusetts Ave NW\\ 
+	Apt 414 \\
+	Washington, DC 20008
 }
 \www{sdmccabe.github.io}
 \email{stefanmccabe@gmail.com}
 \twitter{mccabe\_s}
+\tel{(571) 432-8219}
 \subject{}
 \hypersetup{xetex,
     colorlinks=true,
@@ -22,60 +24,80 @@
 
 \maketitle
 \section{skills}
-\textbf{Programming}\hfill Python (NetworkX, pandas, PySpark, matplotlib), R (tidyverse, ggplot2), SQL\\ \vspace{1mm}
+\textbf{Programming}\hfill Python (pandas, PySpark, matplotlib), R (tidyverse, ggplot2), SQL\\ \vspace{1mm}
 \textbf{Data Management} \hfill Continuous integration, Apache Airflow, Unix command-line tools, git\\\vspace{1mm}
-\textbf{Quantitative Methods} \hfill Regression, causal inference, natural language processing, network analysis\\\vspace{1mm}
+\textbf{Quantitative Methods} \hfill Regression, causal inference, exploratory data analysis \\\vspace{1mm}
+\textbf{Machine Learning} \hfill Natural language processing, network analysis\\\vspace{1mm}
 \textbf{Collaboration/Communication} \hfill Teaching, interdisciplinary communication, code review
 
 
 \section{experience}
-\textbf{Lazer Lab, Northeastern University} \hfill 09/2016-- \\
-Research Assistant \\
-Work at all levels (theorizing, data engineering, analysis, writing) to study politics online.
+\textbf{Institute for Data, Democracy \& Politics, The George Washington University} \hfill 12/2022-- \\
+Postdoctoral Associate (40 hours/week) \\
+%Constructed data pipelines for studying social media data and applied machine-learning techniques to study public opinion and political communication.
 
-\vspace{3mm}
+\begin{itemize}[noitemsep,topsep=0pt]
+\item[-] Constructed and maintained data pipelines for studying social media.
+\item[-] Applied machine-learning techniques to study public opinion and political communication.
+\end{itemize}
+
+\vspace{2.75mm}
+\textbf{Lazer Lab, Northeastern University} \hfill 09/2016--05/2020, 09/2020--11/2022 \\
+Research Assistant (20 hours/week)\\
+%Work at all levels (theorizing, data engineering, analysis, writing) to study politics online.
+\begin{itemize}[noitemsep,topsep=0pt]
+\item[-] Analyzed billions of Tweets connected to voter data to study political communication.
+\item[-] Developed software to enable comparative analysis of graph distance measures. \\
+\item[-] Processed terabytes of mobile-phone location events to study mobility during COVID-19. \\
+\item[-] Presented research in various forms: reports to government officials, peer-reviewed journal articles, and conference presentations.
+\item[-] Selected articles published in \href{https://academic.oup.com/poq/article/85/S1/323/6342443?guestAccessKey=3c4778c7-e064-4647-b223-6caa3ab9e002}{\emph{Public Opinion Quarterly}}, \href{https://www.pnas.org/doi/10.1073/pnas.2115900119}{\emph{Proceedings of the National Academy of Sciences}}, \href{https://royalsocietypublishing.org/doi/10.1098/rspa.2019.0744}{\emph{Proceedings of the Royal Society A}}, or available on the \href{https://arxiv.org/abs/2212.08873}{arXiv}.
+\end{itemize}
+
+\vspace{2.75mm}
 \textbf{Microsoft Research NYC}  \hfill 05/2020--09/2020 \\
-Research Intern \\
-Worked with mentor to study agenda-setting among Twitter-using journalists.
+Research Intern (40 hours/week)\\
+\begin{itemize}[noitemsep,topsep=0pt]
+\item[-] Worked with mentor to study agenda-setting among Twitter-using journalists.
+\end{itemize}
 
 \vspace{-1mm}
 
 \section{education}
-\textbf{Northeastern University}  \hfill 09/2016--08/2022 (expected) \\
-Ph.D., Network Science \\
-Dissertation (in progress): ``Essays on the Measurement of Online Behavior''
-\vspace{3mm}
+\textbf{Northeastern University}  \hfill 2022 \\
+PhD, Network Science %\\
+%Dissertation: ``Essays on the Measurement of Online Behavior''
+\vspace{2.75mm}
 
 \textbf{George Mason University}  \hfill 2016 \\
-MA, Computational Social Science \\
-Thesis: ``Communicating Sequential Agents: An Analysis of Concurrent Agent Scheduling''
-\vspace{3mm}
+MA, Computational Social Science %\\
+%Thesis: ``Communicating Sequential Agents: An Analysis of Concurrent Agent Scheduling''
+\vspace{2.75mm}
 
 \textbf{George Mason University}  \hfill 2013 \\
 BA, Government \& International Politics \\
 
 \vspace{2mm}
 
-\section{selected projects}
+% \section{selected projects}
 
-\textbf{Political Communication on Twitter} \\
-Analyzed billions of Tweets connected to voter data to study patterns of political communication. \\
-Work published in \href{https://academic.oup.com/poq/article/85/S1/323/6342443?guestAccessKey=3c4778c7-e064-4647-b223-6caa3ab9e002}{\emph{Public Opinion Quarterly}}, \href{https://journalqd.org/article/view/2570}{\emph{Journal of Quantitative Description: Digital Media}}.
+% \textbf{Political Communication on Twitter} \\
+% Analyzed billions of Tweets connected to voter data to study patterns of political communication. \\
+% Work published in \href{https://academic.oup.com/poq/article/85/S1/323/6342443?guestAccessKey=3c4778c7-e064-4647-b223-6caa3ab9e002}{\emph{Public Opinion Quarterly}}, \href{https://journalqd.org/article/view/2570}{\emph{Journal of Quantitative Description: Digital Media}}.
 
-\vspace{3mm}
-\textbf{Big Data Analysis of Compliance With Social Distancing}\\
-Processed terabytes of mobile-phone location events to study mobility changes during COVID-19. \\
-Dashboard and reports \href{https://covid19.gleamproject.org/mobility}{available online}.
+% \vspace{2.75mm}
+% \textbf{Big Data Analysis of Compliance With Social Distancing}\\
+% Processed terabytes of mobile-phone location events to study mobility changes during COVID-19. \\
+% Dashboard and reports \href{https://covid19.gleamproject.org/mobility}{available online}.
 
-\vspace{3mm}
-\textbf{Network Comparison} \\
-Developed software, \href{https://github.com/netsiphd/netrd}{\texttt{netrd}}, to enable comparative analysis of graph distance measures. \\
-Work published in \href{https://royalsocietypublishing.org/doi/10.1098/rspa.2019.0744}{\emph{Proceedings of the Royal Society A}}, \href{https://joss.theoj.org/papers/10.21105/joss.02990}{\emph{Journal of Open Source Software}}.
+% \vspace{2.75mm}
+% \textbf{Network Comparison} \\
+% Developed software, \href{https://github.com/netsiphd/netrd}{\texttt{netrd}}, to enable comparative analysis of graph distance measures. \\
+% Work published in \href{https://royalsocietypublishing.org/doi/10.1098/rspa.2019.0744}{\emph{Proceedings of the Royal Society A}}, \href{https://joss.theoj.org/papers/10.21105/joss.02990}{\emph{Journal of Open Source Software}}.
 
 \section{teaching}
 \textbf{Complex Networks and Applications} \\
 Graduate course, \href{https://web.archive.org/web/20210102223738/barabasilab.com/course}{Fall 2020}. Survey course on network science.
-\vspace{3mm}
+\vspace{2.75mm}
 
 \textbf{Programming with Data: Social Science Practicum} \\
 Undergraduate course, \href{https://sdmccabe.github.io/ds2001/}{Fall 2019}. Hands-on instruction using Python and social-science examples.
