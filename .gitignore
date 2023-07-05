@@ -10,3 +10,7 @@ yaml_CV.md
 *.xml
 *.blg
 *.pdf
+*.fdb_latexmk
+*.fls
+*.xdv
+vc.tex
